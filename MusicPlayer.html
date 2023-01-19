@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlayer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="MusicPlayer.css">
+</head>
+<body>
+    <div class="aprendizado">
+       <br> <h1>Com esse "projeto", eu pratiquei as seguintes habilidades:</h1><br>
+       <ul>
+        <li>Utilização de arrays para armazenar informações e atualizar elementos no HTML;</li>
+        <li>Utilização de eventos, como o "click" e "timeupdate";</li>
+        <li> Alteraração de elementos no HTML através de botões, obtendo informações dentro de um array compostos por diversos objetos;</li>
+        <li>Uso de laços de repetição para acessar elementos de um array;</li>
+        <li>Lógica de programação e condição;</li>
+        <li>Como pausar ou reproduzir um áudio, ou video, através do javascript.</li>
+       </ul><br>
+        <button id="btn">Ir parao o projeto</button>
+    </div>
+    
+    <section id="musicPlayer"> 
+
+        <div class="header">
+        <h3>Music Player - Bocchi the Rock!</h2>
+        </div>
+        
+        <div class="imagem">
+        <img id="imagem" src="imagens/capa2.png" alt="">
+        </div>
+        
+        <div class="nomes">
+            <h1>Kessoku Band</h1>
+            <h2 id="nomeMusica">Karakara</h2>
+        </div><br><br>
+
+      
+       
+        <div id="barra">
+            <div id="progress-bar"></div>
+        </div><br><br>
+        <audio  src="music/Karakara.mp3"  id="audio"></audio> 
+        <div class="controls">
+        <i class="material-symbols-outlined" id="proxima">skip_previous</i>
+        <i class="material-symbols-outlined" id="play-pause">Play_arrow</i>
+        <i class="material-symbols-outlined" id="anterior">skip_next</i>
+    </div>
+    </section>
+
+    <script src="MusicPlayer.js"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.aprendizado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+
+}
+
+#btn{
+    width: 100%;
+    height: 40px;
+}
+#musicPlayer{
+    width: 35%;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.imagem{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+}
+img{
+ width: 100%;
+ height: 100%;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+h2{
+    color: rgb(67, 63, 63);
+}
+
+#barra{
+    width: 75%;
+    height: 10px;
+    background-color: grey;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.tempo{
+    display: flex;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.material-symbols-outlined{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover{
+    background-color: grey;
+}
+
+#progress-bar {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(61, 50, 50);
+}
+
+@media (max-width: 850px ) {
+
+    body{
+        height: 100%;
+    }
+    #musicPlayer{
+        width: 80%;
+        height: 100vh;
+        border: 0px;
+    }
+
+}
