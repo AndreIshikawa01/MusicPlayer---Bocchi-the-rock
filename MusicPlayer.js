@@ -98,3 +98,6 @@ let musicPlayer = document.getElementById("musicPlayer")
     aprendizado.style.display = "none";
     musicPlayer.style.display = "block";
 });
+
+const audioVolume = document.getElementById("audio");
+audio.volume = 0.08;
