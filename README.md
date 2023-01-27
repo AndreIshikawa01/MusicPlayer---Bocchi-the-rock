@@ -1,5 +1,5 @@
 # MusicPlayer---Bocchi-the-rock
-https://andreishikawa01.github.io/MusicPlayer---Bocchi-the-rock/MusicPlayer.html
+https://andreishikawa01.github.io/MusicPlayer---Bocchi-the-rock-PROJETO/MusicPlayer.html
 
  <br> <h1>Com esse "projeto", eu pratiquei as seguintes habilidades:</h1><br>
        <ul>
